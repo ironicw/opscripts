@@ -1,0 +1,5 @@
+if game.PlaceId == "6741970382" then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ironicw/opscripts/main/zombielab", true))()
+else
+  game.Players.LocalPlayer:Kick("Game isn't supported")
+end
