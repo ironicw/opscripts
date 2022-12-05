@@ -2,6 +2,8 @@ if game.PlaceId == 6741970382 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/ironicw/opscripts/main/Skilledware/zombielab", true))()
 elseif game.PlaceId == 10652184030 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/ironicw/opscripts/main/Skilledware/jumpclicker", true))()
+elseif game.PlaceId == 6366283085 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ironicw/opscripts/main/Skilledware/garenashit", true))()
 else
   game.Players.LocalPlayer:Kick("Game isn't supported")
 end
